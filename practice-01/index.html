@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-17</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="font/flaticon.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--navbar start-->
+       
+
+
+<header>
+    
+    <nav class="navbar navbar-expand-lg main_menu fixed-top">
+       
+        <div class="container">
+          <a class="navbar-brand" href="#banner" >
+            <img src="images/logo.png" class="img-fluid" alt="logo">
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item px-2">
+                <a class="nav-link  fs-5 text-white active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link fs-5 text-white" aria-current="page" href="#service">Services</a>
+              </li>
+              <li class="nav-item px-2">
+              <a class="nav-link fs-5 text-white" aria-current="page" href="#about">About</a>
+            </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link  fs-5 text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link  fs-5 text-white disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                
+              </li>
+            </ul>
+            <form class="d-flex  fs-5 text-white">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <!--banner part start-->
+      <section id="banner">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active slider_overlay">
+            <img src="images/Haleem-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5  class="fs-1 fw-bold mb-0">Simple,Fresh & Unique Flavour</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="btn py-2 px-4 mb-4 fs-6 fw-bold bnr-btn text-white text-uppercase">Show More</button>
+            </div>
+          </div>
+          <div class="carousel-item slider_overlay">
+            <img src="images/food5.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5  class="fs-1 fw-bold mb-0">Simple,Fresh & Unique Flavour</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+              <button class="btn py-2 px-4 mb-4 fs-6 fw-bold bnr-btn text-white text-uppercase">Show More</button>
+            </div>
+          </div>
+          <div class="carousel-item slider_overlay">
+            <img src="images/food2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5  class="fs-1 fw-bold mb-0">Simple,Fresh & Unique Flavour</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+              <button class="btn py-2 px-4 mb-4 fs-6 fw-bold bnr-btn text-white text-uppercase">Show More</button>
+            </div>
+          </div>
+          <div class="carousel-item slider_overlay">
+            <img src="images/food3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5  class="fs-1 fw-bold mb-0">Simple,Fresh & Unique Flavour</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+              <button class="btn py-2 px-4 mb-4 fs-6 fw-bold bnr-btn text-white text-uppercase">Show More</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+       </button>
+      </div>
+
+    </section>
+    </header>
+             <!--cards part start-->
+             <div class="row lg-3 py-5">
+              <div class="col-lg-4">
+                  <div class="card shadow-lg">
+                      <img src="images/card1.jpg" class="w-100 img-fluid" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">motton biriyani</h5>
+                        <h5>510 TK</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#"  class="btn btn-primary" >Order Now</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="card shadow-lg">
+                      <img src="images/card2.jpg" class="w-100 img-fluid" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">chicken suslik</h5>
+                        <h5>330 Tk</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="card shadow-lg">
+                      <img src="images/card3.jpg" class="w-100 img-fluid" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mashroom curry</h5>
+                        <h5>280 Tk</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card shadow-lg">
+                    <img src="images/card4.jpg" class="w-100 img-fluid" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Deshi combo</h5>
+                      <h5>290 Tk</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card shadow-lg">
+                  <img src="images/card5.jpg" class="w-100 img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Chicken Biriyani</h5>
+                    <h5>410 Tk</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow-lg">
+                <img src="images/card6.jpg" class="w-100 img-fluid" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chicken curry with rice</h5>
+                  <h5>280 Tk</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+        </div>
+          </div>
+      </div>
+    </section>
+
+
+           <!--about part start-->
+    
+    <section id="about">
+      <div class="row g-0">
+        <div class="col-lg-6 col-12">
+          <img src="images/about.jpg" class=" w-100 img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 col-12 ps-5 about-text"> 
+          <div class="my-4 py-4 text-white">
+            <h2 class="text-uppercase fs-1 mb-4">Who We Are</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dui massa, condimentum a nisl quis,
+             tristique efficitur erat. Aenean ut suscipit urna. Donec efficitur tristique lobortis. Nullam eu efficitur
+             lacus, et blandit tellus. Mauris viverra condimentum tellus vitae sollicitudin. Mauris quis mattis urna.
+             Suspendisse auctor magna quis ipsum ultrices scelerisque. Vestibulum quis hendrerit enim. Aenean viverra
+             aliquam ex, sed ornare risus porta in.</p>
+           <p>Aenean ut suscipit urna. Donec efficitur tristique lobortis. Nullam eu efficitur lacus, et blandit tellus.
+             Mauris viverra condimentum tellus vitae sollicitudin. Mauris quis mattis urna. Suspendisse auctor magna quis
+             ipsum ultrices scelerisque. Vestibulum quis hendrerit enim. Aenean viverra aliquam ex, sed ornare risus
+             porta in.</p>
+             <button class="btn mt-4 about-btn py-2 px-2 px-3 text-white fs-4">Read More</button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+      <!--footer part start-->
+      <section id="footer" class="footer py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="row">
+                <img src="images/logo.png" class="w-100" alt="">
+              </div>
+              <div class="row mt-4">
+                <p>Donec vitae cursus quam. Etiam dignissim, nulla a congue auctor, massa urna cursus enim, id sodales elit ligula quis diam. Morbi ut semper augue. Fusce sit amet lectus turpis. Integer a cursus tellus, et imperdiet purus. Donec sed orci placerat, vulputate risus id, faucibus massa. Mauris justo arcu, faucibus at nunc quis</p> 
+              </div>
+            </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="row">
+                  <h2 class="fs-2 text-white">Contact</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in so</p>
+                </div>
+                <div class="d-flex">
+                <div class="contact_icon"><a class="fs-3" href="#"><i class="fas fa-map-marker-alt"></i></a></div> 
+                <div class="contact_text ms-3">
+                  <p class="mt-2">Dhaka</p>
+                </div>
+                </div>
+                <div class="d-flex">
+                  <div class="contact_icon"><a class="fs-3" href="#"><i class="fas fa-envelope"></i></a></div>
+                  <div class="contact_text ms-3">
+                    <p class="mt-2">info@company.com</p>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <div class="contact_icon"><a class="fs-3" href="#"><i class="fas fa-phone-alt"></i></a>
+                    <div class="contact_text ms-3"> 
+                      <p class="mt-2">123 456 7890</p>
+                    </div>
+                  </div>
+                </div>
+                
+
+            </div>
+            
+          
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="row">
+              <h2 class="fs-2 text-white">Latest Tweets</h2>
+            </div>
+            <div class="row">
+              <div class="d-flex">
+                <div class="contact_icon"><a class="fs-3" href="#"><i class="fab fa-twitter"></i></a></div>
+                <div class="contact_text ms-3">
+                  <p class="mt-2 mb-0">Curabitur felis nibh, lacinia non rhoncus vel, lobortis et lorem. Class aptent taciti sociosqu.</p>
+                  <small class="text_info m-0 p-0">5 Hours  Ago</small>
+                </div>
+              </div>
+              <div class="d-flex mt-4">
+                <div class="contact_icon"><a class="fs-3" href="#"><i class="fab fa-twitter"></i></a></div>
+                <div class="contact_text ms-3">
+                  <p class="mt-2 mb-0">Curabitur felis nibh, lacinia non rhoncus vel, lobortis et lorem. Class aptent taciti sociosqu.</p>
+                  <small class="text_info m-0 p-0">5 Hours  Ago</small>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="row">
+            <h2 class="fs-2 text-white">News Letter</h2>
+          </div>
+          <div class="row">
+            <p>Type your email address below and recive our daily news letter for free</p>
+            <div class="d-flex mt-4">
+              <input class="form-control footer-input" type="text" placeholder="Email Address" aria-label="default input example">
+              <input class="btn text-white footer-btn" type="submit" value="Submit">
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      </section>
+
+
+
+
+
+
+
+
+
+             <!--last part start-->
+        <footer class="last py-4 pb-0">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 text-md-center"><p>© 2021 Pakghar Dhkaiya Shad. All rights reserved.</p></div>
+              <div class="col-lg-4 text-center"><p>Designed by  <a class="text-decoration-none fs-5 mt-5 text-info" href="#">Tanzeela.net</a> </p></div>
+              <div class="col-lg-4 text-lg-end text-sm-center">
+                <div class="last-link mb-3">
+                  <a class="fs-5 text-center text-white rounded-2 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="mx-4 fs-5 text-center text-white rounded-2 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="fs-5 text-center text-white rounded-2 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!--last part end-->
+        
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
